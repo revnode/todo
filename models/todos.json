@@ -1,0 +1,28 @@
+{
+	"id":						"todos",
+	"properties":
+	{
+		"entity":
+		{
+			"type":				"string",
+			"description":		"The entity id being returned",
+			"required":			true
+		},
+		"method":
+		{
+			"type":				"string",
+			"description":		"The method used on the entity",
+			"required":			true
+		},
+		"todos":
+		{
+			"items":
+			{
+				"$ref":			"todo"
+			},
+			"type":				"array",
+			"description":		"Todos with relevant data",
+			"required":			true
+		}
+	}
+}

@@ -1,0 +1,91 @@
+@font-face
+{
+	font-family			: "Open Sans";
+	font-style			: normal;
+	font-weight			: 300;
+	src					: local("Open Sans Light"), local("OpenSans-Light"), url("../../font/OpenSans.woff") format("woff");
+}
+
+body, input, select, textarea, button
+{
+	font-family			: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body
+{
+	margin				: 16px;
+}
+
+a
+{
+	position			: relative;
+}
+a:active, a:link, a:visited, .a
+{
+	cursor				: pointer;
+	text-decoration		: none;
+	border-bottom		: 1px dotted #37D;
+	color				: #37D;
+}
+a.none, .a.none
+{
+	border-bottom-width	: 0px;
+}
+
+a:hover, a:visited:hover, .a:hover
+{
+	border-bottom		: 2px solid #C00;
+	color				: #C00;
+}
+a.none:hover, a.none:visited:hover, .a.none:hover, .a.none:visited:hover
+{
+	border-bottom-width	: 0px;
+}
+
+form.box
+{
+	margin				: 5% 25%;
+	border				: 1px solid #6699cc;
+}
+form.box div.title
+{
+	background-color	: #6699cc;
+	padding				: 1%;
+	color				: white;
+}
+form.box div.body
+{
+	padding				: 2%;
+}
+form.box div.body span.label
+{
+	color				: #ccc;
+}
+
+div.message
+{
+	border-radius		: 4px;
+	text-align			: center;
+	margin				: 4px;
+	padding				: 4px;
+}
+div.message a
+{
+	color				: white;
+}
+div.info
+{
+	background			: #0c9;
+	color				: white;
+}
+div.error
+{
+	background			: #c33;
+	color				: white;
+}
+
+hr
+{
+	border-style		: solid none none none;
+	border-width		: 1px;
+	border-color		: #ccc;
+}

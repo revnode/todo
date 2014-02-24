@@ -1,0 +1,55 @@
+{
+	"id":						"todo",
+	"properties":
+	{
+		"entity":
+		{
+			"type":				"string",
+			"description":		"The entity id being returned",
+			"required":			true
+		},
+		"method":
+		{
+			"type":				"string",
+			"description":		"The method used on the entity",
+			"required":			true
+		},
+		"id":
+		{
+			"type":				"string",
+			"description":		"A unique todo id for the list",
+			"required":			true
+		},
+		"state":
+		{
+			"type":				"string",
+			"description":		"The state of the todo",
+			"enum":
+			[
+				"uncompleted",
+				"completed"
+			],
+			"required":			true
+		},
+		"priority":
+		{
+			"type":				"integer",
+			"description":		"The priority level of the todo",
+			"format":			"int32",
+			"required":			false
+		},
+		"due":
+		{
+			"type":				"string",
+			"description":		"The due date of the todo",
+			"format":			"date",
+			"required":			false
+		},
+		"text":
+		{
+			"type":				"string",
+			"description":		"The text of the todo",
+			"required":			false
+		}
+	}
+}

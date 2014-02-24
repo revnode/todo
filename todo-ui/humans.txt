@@ -1,0 +1,15 @@
+/* TEAM */
+
+	Developer:	Marat Alexander Denenberg
+	Email:		marat@revnode.com
+	Skype:		marat.denenberg
+	From:		Hackensack, New Jersey, USA
+
+/* LINKS */
+
+	http://humanstxt.org/
+
+/* SITE */
+
+	Language:	English
+	Doctype:	HTML5
